@@ -1,16 +1,8 @@
-# Real-Time-Task-Management-Application
+### Real-Time-Task-Management-Application
 
 ## Description
 
-This project is a Real-Time Task Management Application designed to help users manage their tasks efficiently. It allows users to create, update, complete, and delete tasks with real-time updates using web sockets. The application is built with a modern tech stack, including React for the frontend and
-
-https://github.com/itsRiddhiPandey/Real-Time-Management-/assets/146252460/1767286c-a663-4c70-b6ce-786d393adb0b
-
-
-
-https://github.com/itsRiddhiPandey/Real-Time-Management-/assets/146252460/44f58ed2-f00a-4ef6-8012-e0a43d2b3de0
-
- Node.js with Express for the backend, and MongoDB for the database.
+This project is a Real-Time Task Management Application designed to help users manage their tasks efficiently. It allows users to create, update, complete, and delete tasks with real-time updates using web sockets. The application is built with a modern tech stack, including React for the frontend and Node.js with Express for the backend, and MongoDB for the database.
 
 ## Features
 
@@ -72,7 +64,12 @@ https://github.com/itsRiddhiPandey/Real-Time-Management-/assets/146252460/44f58e
 2. Ensure the frontend server is running on port 3000.
 3. Open your browser and navigate to `http://localhost:3000`.
 
+![Screenshot 2024-07-10 000526](https://github.com/itsRiddhiPandey/Real-Time-Management-/assets/146252460/77a09163-1467-4964-9e59-eef6db79a810)
+
+
+https://github.com/itsRiddhiPandey/Real-Time-Management-/assets/146252460/2895d178-f34b-49a0-998b-995362de594d
+
+
 ## Acknowledgements
 
 - Thanks to the developers of React, Node.js, Express, MongoDB, and Socket.IO for their amazing tools and frameworks.
-![Screenshot 2024-07-10 000526](https://github.com/itsRiddhiPandey/Real-Time-Management-/assets/146252460/c68d5018-ec00-4398-824c-0dfa0870f64c)
