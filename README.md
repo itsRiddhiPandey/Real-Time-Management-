@@ -1,8 +1,16 @@
-# Real-Time-Management-
+# Real-Time-Task-Management-Application
 
 ## Description
 
-This project is a Real-Time Task Management Application designed to help users manage their tasks efficiently. It allows users to create, update, complete, and delete tasks with real-time updates using web sockets. The application is built with a modern tech stack, including React for the frontend and Node.js with Express for the backend, and MongoDB for the database.
+This project is a Real-Time Task Management Application designed to help users manage their tasks efficiently. It allows users to create, update, complete, and delete tasks with real-time updates using web sockets. The application is built with a modern tech stack, including React for the frontend and
+
+https://github.com/itsRiddhiPandey/Real-Time-Management-/assets/146252460/1767286c-a663-4c70-b6ce-786d393adb0b
+
+
+
+https://github.com/itsRiddhiPandey/Real-Time-Management-/assets/146252460/44f58ed2-f00a-4ef6-8012-e0a43d2b3de0
+
+ Node.js with Express for the backend, and MongoDB for the database.
 
 ## Features
 
