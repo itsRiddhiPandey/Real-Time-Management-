@@ -23,7 +23,7 @@ Make sure you have the following installed:
 ### Clone the repository
 
 ```bash
-git clone https://github.com/itsRiddhiPandey/task-manager.git
+git clone https://github.com/itsRiddhiPandey/Real-Time-Management-.git
 cd task-manager
 ```
 
@@ -116,10 +116,6 @@ PUT /api/tasks/:id
 ```http
 DELETE /api/tasks/:id
 ```
-
-## Contributing
-
-Feel free to fork the repository and make changes. Pull requests are welcome.
 
 ## Acknowledgments
 
