@@ -78,8 +78,6 @@ After running the application, you'll see a clean and intuitive interface for ma
 - **Task List**: Below the form, the tasks are displayed in a list. Each task shows the title, description, start and end dates, times, and the person assigned.
 - **Task Actions**: Each task has buttons to complete, delete, or edit the task, allowing easy management.
 
-![1](https://github.com/user-attachments/assets/aaa3b423-8e8d-4160-b9de-da19f1b209f3)
-### TASKS DETAILS 
 ## Project Structure
 
 ### Backend
