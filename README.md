@@ -1,75 +1,122 @@
-# Real-Time-Task-Management-Application
+# Real-Time Task Management Application
 
-## Description
-
-This project is a Real-Time Task Management Application designed to help users manage their tasks efficiently. It allows users to create, update, complete, and delete tasks with real-time updates using web sockets. The application is built with a modern tech stack, including React for the frontend and Node.js with Express for the backend, and MongoDB for the database.
+This is a Real-Time Task Management Application built with React, Node.js, Express, and MongoDB. It allows users to manage tasks, including creating, editing, completing, and deleting tasks, with real-time updates using Socket.IO.
 
 ## Features
 
-- **Create Tasks:** Users can create tasks with titles, descriptions, start and end dates, start and end times, and assign them to other users.
-- **Update Tasks:** Users can update task details.
-- **Complete Tasks:** Users can mark tasks as completed.
-- **Delete Tasks:** Users can delete tasks.
-- **Real-Time Updates:** The application uses web sockets (Socket.IO) to provide real-time updates, allowing users to see changes immediately.
-- **Responsive UI:** The application has a responsive and user-friendly interface with animations and hover effects for an enhanced user experience.
+- **Create Task**: Add new tasks with a title, description, start date, end date, start time, end time, and assigned person.
+- **Edit Task**: Modify existing tasks, including updating the title, description, dates, times, and assigned person.
+- **Complete Task**: Mark tasks as completed.
+- **Delete Task**: Remove tasks from the list.
+- **Real-Time Updates**: Get real-time updates across clients for task changes using Socket.IO.
 
-## Technology Stack
+## Prerequisites
 
-- **Frontend:** React, Axios, CSS for styling and animations.
-- **Backend:** Node.js, Express, Mongoose.
-- **Database:** MongoDB.
-- **Real-Time Communication:** Socket.IO.
-- **Environment Variables:** dotenv.
+Make sure you have the following installed:
 
-## Installation
+- Node.js
+- npm or yarn
+- MongoDB
+
+## Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/itsRiddhiPandey/task-manager.git
+cd task-manager
+```
+
+### Install dependencies
+
+For the backend:
+
+```bash
+cd backend
+npm install
+```
+
+For the frontend:
+
+```bash
+cd frontend
+npm install
+```
+
+### Environment Variables
+
+Create a `.env` file in the `backend` directory with the following content:
+
+```
+MONGO_URI= mongodb://localhost:27017/
+PORT=5000
+```
+
+### Run the application
+
+Start the backend server:
+
+```bash
+cd backend
+npm start
+```
+
+Start the frontend server:
+
+```bash
+cd frontend
+npm start
+```
+
+The application should now be running on `http://localhost:3000`.
+
+
+![alt text](1.jpg)
+
+
+## Project Structure
 
 ### Backend
 
-1. Clone the repository.
-2. Navigate to the backend directory:
-    ```bash
-    cd backend
-    ```
-3. Install the dependencies:
-    ```bash
-    npm install
-    ```
-4. Create a `.env` file and add your MongoDB URI:
-    ```
-    MONGO_URI=mongodb://localhost:27017/taskmanager
-    ```
-5. Start the backend server:
-    ```bash
-    npm start
-    ```
+- **server.js**: Entry point for the Express server and Socket.IO setup.
+- **models/Task.js**: Mongoose schema for the Task model.
+- **routes/tasks.js**: Express routes for task CRUD operations.
 
 ### Frontend
 
-1. Navigate to the frontend directory:
-    ```bash
-    cd frontend
-    ```
-2. Install the dependencies:
-    ```bash
-    npm install
-    ```
-3. Start the frontend development server:
-    ```bash
-    npm start
-    ```
+- **src/App.js**: Main React component with task management functionality.
+- **src/App.css**: Styles for the application.
 
-## Running the Application
+## API Endpoints
 
-1. Ensure the backend server is running on port 5000.
-2. Ensure the frontend server is running on port 3000.
-3. Open your browser and navigate to `http://localhost:3000`.
+### Get All Tasks
 
-![Screenshot 2024-07-10 000526](https://github.com/itsRiddhiPandey/Real-Time-Management-/assets/146252460/77a09163-1467-4964-9e59-eef6db79a810)
+```http
+GET /api/tasks
+```
 
+### Create a Task
 
-https://github.com/itsRiddhiPandey/Real-Time-Management-/assets/146252460/2895d178-f34b-49a0-998b-995362de594d
+```http
+POST /api/tasks
+```
 
+### Update a Task
 
-## Acknowledgements
+```http
+PUT /api/tasks/:id
+```
 
-- Thanks to the developers of React, Node.js, Express, MongoDB, and Socket.IO for their amazing tools and frameworks.
+### Delete a Task
+
+```http
+DELETE /api/tasks/:id
+```
+
+## Contributing
+
+Feel free to fork the repository and make changes. Pull requests are welcome.
+
+## Acknowledgments
+
+- Thanks to all the open-source contributors who helped build the libraries and frameworks used in this project.
