@@ -82,6 +82,39 @@ After running the application, you'll see a clean and intuitive interface for ma
 - **Task Actions**: Each task has buttons to complete, delete, or edit the task, allowing easy management.
 
 
+---
+
+
+
+https://github.com/user-attachments/assets/f8fc4eca-efa6-4de4-9277-b6bb5c21179b
+
+
+
+## Application Demo Video
+
+This video demonstrates the core features and functionality of the Real-Time Task Management Application:
+
+1. **Creating a Task**:
+   - The video starts by showing how to add a new task. The user enters the title, description, start date, end date, start time, end time, and the person assigned to the task. 
+   - The new task appears in the task list immediately after clicking the "Add Task" button.
+
+2. **Editing a Task**:
+   - Next, the video demonstrates editing an existing task. 
+   - The user clicks the "Edit" button, modifies the task details in the form, and saves the changes.
+   - The updated task details are displayed in the task list.
+
+3. **Completing a Task**:
+   - The video shows how to mark a task as completed.
+   - The user clicks the "Complete" button, and the task is marked as completed with a visual indication (e.g., text strike-through and background color change).
+
+4. **Deleting a Task**:
+   - Finally, the video demonstrates how to delete a task.
+   - The user clicks the "Delete" button, and the task is removed from the task list.
+
+Throughout the video, you can see the application's real-time updates, responsive design, and user-friendly interface. This demonstration highlights how the task manager efficiently handles task creation, editing, completion, and deletion.
+
+---
+
 
 ## Project Structure
 
