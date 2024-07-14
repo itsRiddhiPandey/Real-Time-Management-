@@ -74,16 +74,12 @@ The application should now be running on `http://localhost:3000`.
 
 ### Application UI
 After running the application, you'll see a clean and intuitive interface for managing tasks:
-
-Add Task Form: At the top is a form to add new tasks. Enter the title, description, start date, end date, start time, and the person assigned to the task.
-Task List: Below the form, the tasks are displayed in a list. Each task shows the title, description, start and end dates, times, and the person assigned.
-Task Actions: Each task has buttons to complete, delete, or edit the task, allowing easy management.
-
-
-
+- **Add Task Form**: At the top is a form to add new tasks. Enter the title, description, start date, end date, start time, and the person assigned to the task.
+- **Task List**: Below the form, the tasks are displayed in a list. Each task shows the title, description, start and end dates, times, and the person assigned.
+- **Task Actions**: Each task has buttons to complete, delete, or edit the task, allowing easy management.
 
 ![1](https://github.com/user-attachments/assets/aaa3b423-8e8d-4160-b9de-da19f1b209f3)
-FIG. TASKS DETAILS 
+### TASKS DETAILS 
 ## Project Structure
 
 ### Backend
