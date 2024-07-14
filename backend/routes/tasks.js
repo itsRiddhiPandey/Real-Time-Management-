@@ -55,11 +55,7 @@ router.put('/:id', async (req, res) => {
     }
 });
 
-<<<<<<< HEAD
 // Delete a task
-=======
-// DELETE /api/tasks/:id
->>>>>>> 0c9437236164d5fa9df99b5c6a6d319b3f7b3e47
 router.delete('/:id', async (req, res) => {
     try {
         const task = await Task.findByIdAndDelete(req.params.id);
