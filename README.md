@@ -70,7 +70,7 @@ npm start
 
 The application should now be running on `http://localhost:3000`.
 
-
+---
 
 
 ![3](https://github.com/user-attachments/assets/f0de57ac-c8eb-47f9-a6cd-9837766126d1)
